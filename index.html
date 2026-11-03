@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#0B1220">
+	<meta name="description" content="GroundGear One is a local AI device with Redact, Vault, and Notes. Your sensitive data stays with you—no cloud required.">
+	<title>GroundGear One — Local AI. No Cloud Required.</title>
+	<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="styles.css">
+	<script src="app.js" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<header class="site-header">
+		<a class="wordmark" href="#top" aria-label="GroundGear.ai home"><img src="assets/logo-horizontal-dark.svg" alt="GroundGear.ai — Private to Powerful"></a>
+		<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle><span class="sr-only">Toggle navigation</span><i></i><i></i></button>
+		<nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
+			<a href="#platform">The platform</a><a href="#privacy">Privacy model</a><a href="#connection">Connection</a><a class="nav-cta" href="#how-it-works">How it works</a>
+		</nav>
+	</header>
+
+	<main id="main">
+		<section class="hero" id="top">
+			<div class="grid-bg" aria-hidden="true"></div>
+			<div class="hero-copy reveal">
+				<p class="eyebrow"><span></span> GroundGear One</p>
+				<h1>Local AI.<br><em>No Cloud Required.</em></h1>
+				<p class="hero-lede">A self-contained privacy bridge for your files and ideas. Plug in one device and open a private workspace for redaction, encrypted storage, and intelligent notes.</p>
+				<div class="hero-actions"><a class="button primary" href="#platform">Meet the three apps <span>↓</span></a><a class="button quiet" href="#privacy">See the privacy boundary</a></div>
+				<ul class="app-strip" aria-label="GroundGear One apps">
+					<li><span class="app-glyph redact-glyph"></span><b>Redact</b><small>Safe file sharing</small></li>
+					<li><span class="app-glyph vault-glyph"></span><b>Vault</b><small>Encrypted storage</small></li>
+					<li><span class="app-glyph notes-glyph"></span><b>Notes</b><small>Private intelligence</small></li>
+				</ul>
+			</div>
+
+			<div class="device-stage reveal" data-delay="1">
+				<div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+				<figure class="device-visual">
+					<img class="device-render" src="assets/groundgear-one-device.png" alt="Idealized GroundGear One rebuilt from the source device: anodized black aluminum, four black screws, monochrome white GroundGear.ai enclosure printing, an unlit control button, end-mounted USB-C, and an OLED with the exact dot-lattice symbol, GroundGear One title, and groundgear.local browser prompt">
+					<figcaption><strong>57.2 × 42.2 × 16.6 mm</strong><span>OLED display · control button · USB-C</span></figcaption>
+				</figure>
+				<p class="device-caption"><span>01</span> GroundGear One. Built for private work.</p>
+			</div>
+		</section>
+
+		<section class="signal-bar" aria-label="GroundGear privacy principles">
+			<div><span>01</span> Processing stays local</div><div><span>02</span> No cloud dependency</div><div><span>03</span> No browser install</div><div><span>04</span> Direct USB-C link</div>
+		</section>
+
+		<section class="section platform" id="platform">
+			<div class="section-heading reveal"><p class="eyebrow"><span></span> The private workspace</p><h2>Three apps.<br>One trust boundary.</h2><p>GroundGear One is more than a redaction tool. It gives sensitive work a private place to move, rest, and become useful—without sending the originals to someone else’s computer.</p></div>
+			<div class="app-grid">
+				<article class="app-card redact-card reveal" data-app="redact">
+					<div class="card-number">01 / 03</div><div class="card-icon"><span class="app-glyph redact-glyph"></span></div><p class="card-kicker">GROUNDGEAR REDACT</p><h3>Share the work.<br>Not the identity.</h3>
+					<p>Detect sensitive names, titles, and organizations on the device. Replace them with readable tokens before a file leaves your hands.</p>
+					<ul class="feature-list"><li>DOCX, PDF, Markdown, and TXT</li><li>Local entity detection and review</li><li>Reversible for files Redact protected</li></ul>
+					<a href="#redact-demo">View the redaction flow <span>→</span></a>
+				</article>
+				<article class="app-card vault-card reveal" data-delay="1" data-app="vault">
+					<div class="card-number">02 / 03</div><div class="card-icon"><span class="app-glyph vault-glyph"></span></div><p class="card-kicker">GROUNDGEAR VAULT</p><h3>A private place<br>for what matters.</h3>
+					<p>Password access unlocks encrypted content stored on GroundGear One. Your protected files remain with the device, not in a remote account.</p>
+					<ul class="feature-list"><li>Password-unlocked encrypted content</li><li>Device-local storage boundary</li><li>Available from the same browser workspace</li></ul>
+					<a href="#private-workspace">See the private workspace <span>→</span></a>
+				</article>
+				<article class="app-card notes-card reveal" data-delay="2" data-app="notes">
+					<div class="card-number">03 / 03</div><div class="card-icon"><span class="app-glyph notes-glyph"></span></div><p class="card-kicker">GROUNDGEAR NOTES</p><h3>Think clearly.<br>Keep it close.</h3>
+					<p>A simple on-device AI assistant helps organize notes and find what you wrote, while your private knowledge stays in your local workspace.</p>
+					<ul class="feature-list"><li>Organize private notes</li><li>Search your content locally</li><li>Voice recording <mark>planned</mark></li></ul>
+					<a href="#private-workspace">Explore local intelligence <span>→</span></a>
+				</article>
+			</div>
+		</section>
+
+		<section class="section privacy-section" id="privacy">
+			<div class="privacy-intro reveal"><p class="eyebrow light"><span></span> A visible boundary</p><h2>Your private data<br>stops here.</h2><p>GroundGear One sits between your sensitive material and the tools you choose to use. Redaction and mapping happen on the device. Only the protected copy needs to travel.</p></div>
+			<div class="boundary reveal" data-delay="1">
+				<div class="boundary-zone"><div class="zone-label">YOUR PRIVATE SIDE</div><div class="boundary-node"><span>A</span><strong>Your computer</strong><small>Original file</small></div><div class="flow-line"><i></i><span>USB-C</span></div><div class="boundary-node gear-node"><span>B</span><strong>GroundGear One</strong><small>Detect • protect • map</small></div><div class="kept-local">⌾ Originals + token map stay here</div></div>
+				<div class="boundary-line"><span>PRIVACY BOUNDARY</span></div>
+				<div class="boundary-zone optional-zone"><div class="zone-label">OPTIONAL EXTERNAL SIDE</div><div class="flow-line dashed"><i></i><span>PROTECTED COPY</span></div><div class="boundary-node"><span>C</span><strong>Your chosen AI</strong><small>Sees tokens, not identities</small></div></div>
+			</div>
+		</section>
+
+		<section class="section redact-demo" id="redact-demo">
+			<div class="demo-copy reveal"><p class="eyebrow"><span></span> GroundGear Redact</p><h2>Readable going out.<br>Restored coming back.</h2><p>Redact replaces sensitive entities with typed tokens that preserve the shape of the document. When the protected file returns, GroundGear can restore the values from the mapping it kept locally.</p><div class="format-row"><span>DOCX</span><span>PDF</span><span>MD</span><span>TXT</span></div></div>
+			<div class="demo-panel reveal" data-delay="1">
+				<div class="demo-toolbar"><div class="demo-file"><i></i><span>board-notes.docx</span></div><div class="demo-toggle" role="group" aria-label="Document view"><button class="active" type="button" data-demo-view="original" aria-pressed="true">Original</button><button type="button" data-demo-view="protected" aria-pressed="false">Protected</button></div></div>
+				<div class="document-preview" data-document-preview><div class="document-meta"><span>PROJECT BRIEF</span><span>14 OCT</span></div><h3>Field research summary</h3><p><span class="sensitive" data-original="Maya Chen" data-protected="[PERSON_1]">Maya Chen</span>, Director of Research at <span class="sensitive" data-original="Northstar Labs" data-protected="[ORG_1]">Northstar Labs</span>, will lead the review in <span class="sensitive" data-original="Denver" data-protected="[LOCATION_1]">Denver</span>.</p><p>Send the revised findings to <span class="sensitive" data-original="the project lead" data-protected="[CONTACT_1]">the project lead</span> before Thursday.</p><div class="document-status"><span></span><b data-demo-status>Original values visible</b><small data-demo-detail>Ready to protect on GroundGear One</small></div></div>
+				<p class="demo-note">Illustrative example. Entity review remains under your control.</p>
+			</div>
+		</section>
+
+		<section class="section workspace" id="private-workspace">
+			<div class="workspace-window reveal">
+				<div class="window-chrome"><div><i></i><i></i><i></i></div><span><b>⌁</b> https://groundgear.local</span><small>LOCAL</small></div>
+				<div class="window-body"><aside><div class="mini-brand">GG</div><a class="active" href="#private-workspace"><span class="app-glyph redact-glyph"></span>Redact</a><a href="#private-workspace"><span class="app-glyph vault-glyph"></span>Vault</a><a href="#private-workspace"><span class="app-glyph notes-glyph"></span>Notes</a><i></i><small><b></b> Device connected</small></aside><div class="window-content"><div class="workspace-heading"><div><small>GROUNDGEAR ONE</small><h3>Your private workspace</h3></div><span>Offline</span></div><div class="workspace-cards"><div><span class="app-glyph redact-glyph"></span><small>REDACT</small><strong>Drop a file to protect</strong><i>DOCX · PDF · MD · TXT</i></div><div><span class="app-glyph vault-glyph"></span><small>VAULT</small><strong>Encrypted content</strong><button type="button" tabindex="-1">Unlock with password</button></div><div><span class="app-glyph notes-glyph"></span><small>NOTES</small><strong>Search your thinking</strong><i>Ask your private notes…</i></div></div></div></div>
+			</div>
+			<div class="workspace-copy reveal" data-delay="1"><p class="eyebrow"><span></span> One local address</p><h2>Plug in.<br>Open a browser.</h2><p>GroundGear One creates a direct local network link over USB-C. Visit <code>https://groundgear.local</code> to reach Redact, Vault, and Notes from the browser you already use.</p><ul class="check-list"><li><span>✓</span>No cloud dependency</li><li><span>✓</span>No application install</li><li><span>✓</span>No browser extension</li></ul></div>
+		</section>
+
+		<section class="section connection" id="connection">
+			<div class="connection-card reveal"><div class="cert-icon"><span>!</span></div><div><p class="eyebrow"><span></span> The honest certificate story</p><h2>Your browser may say<br>“Not secure.” The link is still local.</h2><p>GroundGear One is not connected to the public internet, so your browser cannot ask a public certificate authority to verify its local certificate. That warning is expected. The browser connection is encrypted and travels directly through the USB-C link to the device.</p></div><div class="connection-facts"><div><span>01</span><b>Direct</b><small>Computer → USB-C → GroundGear One</small></div><div><span>02</span><b>Encrypted</b><small>HTTPS for the local browser session</small></div><div><span>03</span><b>Zero install</b><small>No certificate setup required</small></div></div></div>
+		</section>
+
+		<section class="section steps" id="how-it-works">
+			<div class="section-heading reveal"><p class="eyebrow"><span></span> Start local</p><h2>From pocket to<br>private workspace.</h2></div>
+			<ol class="step-grid"><li class="reveal"><span>01</span><div class="step-art plug-art"><i></i></div><h3>Connect</h3><p>Plug GroundGear One into your computer with USB-C.</p></li><li class="reveal" data-delay="1"><span>02</span><div class="step-art browser-art"><i>groundgear.local</i></div><h3>Open</h3><p>Use your browser to open the device’s private local workspace.</p></li><li class="reveal" data-delay="2"><span>03</span><div class="step-art choose-art"><i>R</i><i>V</i><i>N</i></div><h3>Choose</h3><p>Protect a file, unlock your vault, or work with private notes.</p></li></ol>
+		</section>
+
+		<section class="section roadmap"><div class="roadmap-card reveal"><div><p class="eyebrow light"><span></span> GroundGear Notes</p><h2>Private knowledge<br>should stay private.</h2></div><div class="roadmap-copy"><p>Search and organize notes with a simple assistant running on GroundGear One. Your notes stay inside the device’s private workspace.</p><p class="planned"><span>PLANNED</span> Voice recording and local transcription are on the roadmap.</p></div></div></section>
+
+		<section class="section faq">
+			<div class="section-heading reveal"><p class="eyebrow"><span></span> Practical answers</p><h2>What stays where?</h2></div>
+			<div class="faq-list reveal" data-delay="1">
+				<details><summary>Does GroundGear One need the internet?<span>+</span></summary><p>No. The device interface, Redact processing, encrypted Vault access, and Notes assistant are designed to work locally. You may separately choose to send a redacted copy to an external AI service.</p></details>
+				<details><summary>Why does the browser show a certificate warning?<span>+</span></summary><p>The device uses a local certificate that public certificate authorities cannot verify while it is offline. Avoiding a certificate installation step preserves portability. The HTTPS session is confined to the direct USB-C network link.</p></details>
+				<details><summary>Can it restore any redacted document?<span>+</span></summary><p>No. GroundGear Redact can unredact files that it previously redacted when the corresponding private mapping remains on the device. It does not reconstruct arbitrary third-party redactions.</p></details>
+				<details><summary>What does Vault protect?<span>+</span></summary><p>GroundGear Vault provides password-unlocked access to encrypted content stored on the device, within the same local browser workspace.</p></details>
+				<details><summary>What can Notes do today?<span>+</span></summary><p>GroundGear Notes can help organize notes and search their content locally. Voice recording is planned and is not presented as a current capability.</p></details>
+			</div>
+		</section>
+
+		<section class="closing"><div class="grid-bg"></div><p class="eyebrow light"><span></span> GroundGear One</p><h2>Carry your<br><em>trust boundary.</em></h2><p>Redact. Vault. Notes. One private workspace that goes where you do.</p><a class="button light-button" href="#top">Back to the device <span>↑</span></a></section>
+	</main>
+
+	<footer><a class="wordmark" href="#top" aria-label="GroundGear.ai home"><img src="assets/logo-horizontal-dark.svg" alt="GroundGear.ai — Private to Powerful"></a><p>Local AI. No Cloud Required.</p><div><span>© <span data-year></span> GroundGear AI</span><span>GroundGear One · Redact · Vault · Notes</span></div></footer>
+</body>
+</html>
